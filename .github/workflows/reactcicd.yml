@@ -33,7 +33,7 @@ jobs:
 
       # Configure Git identity
       - name: Configure Git
-        run: |
+        run: | 
           git config --global user.name "2300033437"
           git config --global user.email "rangasaid2005@gmail.com"
 
